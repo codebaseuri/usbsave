@@ -1,0 +1,26 @@
+
+
+        public static void  printaccepted(Node<player>plist)
+        {
+            while(plist != null)
+            {
+                if(plist.GetValue().getcomps().getrank()<4)//meaning he didnt get 1 2 or 3 
+                    Console.WriteLine(plist.GetValue().getname());
+                //plist = plist.GetNext(); needed to be here forgot in the test apperantly ):
+            }
+        }
+        public static Node<player> getwinners(Node<player>plist)
+        {
+            Node<player> wlist = plist;
+            if (wlist.GetValue().getcomps().getrank()>3)
+                wlist=wlist.GetNext();  
+            while(plist.GetNext()!= null)
+            {
+                if(plist.GetNext().GetValue().getcomps().getrank()>3)
+                    plist.SetNext(plist.GetNext().GetNext());
+
+                plist = plist.GetNext();
+            }
+            return wlist;   
+
+        }

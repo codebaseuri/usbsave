@@ -1,0 +1,13 @@
+https://docs.google.com/presentation/d/1JiLaZpUcpBjpZP_7oOnfqsT8P3Q5cr2cKagXilE4UEc/edit?usp=sharing
+
+
+https://portswigger.net/  - Web Security Class
+https://pwnable.kr/ - CTF challanges for Reverse Engeneering
+
+
+
+Productivity: 
+
+VimTutor 
+https://www.typingclub.com/
+https://learngitbranching.js.org/
